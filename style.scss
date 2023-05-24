@@ -1,0 +1,298 @@
+#userField{
+    height: 100vh;
+    background-color: rgba(68, 68, 246, 0.833);
+
+    
+    .userBtn:hover{
+        scale: 1.06;
+        background-color: rgba(87, 87, 255, 0.782);
+    }
+
+}
+
+#computerField{
+    height: 100vh;
+    background-color: rgba(255, 77, 77, 0.846);
+
+   
+    .computerBtn:hover{
+        scale: 1.06;
+        background-color: rgba(255, 74, 74, 0.846);
+    }
+}
+    
+
+#rockIconU{
+    display: block;
+}
+
+#paperIconU{
+    display: none;
+}
+
+#scissorsIconU{
+    display: none;
+}
+
+#rockIconC{
+    display: block;
+}
+
+#paperIconC{
+    display: none;
+}
+
+#scissorsIconC{
+    display: none;
+}
+
+
+
+    @media (max-width: 600px) {
+        .Icons{
+            width: 200px;
+            height: 200px;
+            margin-top: 150px;
+        }
+    
+        .Icons-active{
+            margin-top: 150px;
+            width: 200px;
+            height: 200px;
+            animation: myAnim 3s ease 0s 1 alternate-reverse both;
+        }
+    
+        #buttons{
+            margin-top: 100px;
+        }
+
+        .points{
+            font-size: 30px;
+            margin: 10px;
+            font-weight: 700;
+        }
+        
+        .result{
+            position: absolute;
+            margin: 10px;
+            font-weight: 700;
+            font-size: 25px;
+        }
+        .userBtn{
+            background-color: rgba(255, 255, 255, 0.846);
+            padding: 10px;
+            margin: 15px;
+            border-radius: 15px;
+            box-shadow: 8px 0px 32px 0px rgba(66, 68, 90, 1);
+            font-size: 15px;
+            font-weight: 700;
+            border: 3px solid black;
+        }
+
+        .computerBtn{
+        
+            background-color: rgba(255, 255, 255, 0.846);
+            padding: 10px;
+            margin: 15px;
+            border-radius: 15px;
+            box-shadow: 8px 0px 32px 0px rgba(66, 68, 90, 1);
+            font-size: 15px;
+            font-weight:  700;
+            border: 3px solid black;
+        }
+    }
+
+    @media (min-width: 600.1px) and (max-width: 720px) {
+        .Icons{
+            width: 200px;
+            height: 200px;
+            margin-top: 100px;
+        }
+    
+        .Icons-active{
+            margin-top: 100px;
+            width: 200px;
+            height: 200px;
+            animation: myAnim 3s ease 0s 1 alternate-reverse both;
+        }
+    
+        #buttons{
+            margin-top: 60px;
+        }
+
+        .points{
+            font-size: 40px;
+            margin: 10px;
+            font-weight: 700;
+        }
+        
+        .result{
+            position: absolute;
+            margin: 10px;
+            font-weight: 700;
+        }
+        .userBtn{
+            background-color: rgba(255, 255, 255, 0.846);
+            padding: 10px;
+            margin: 15px;
+            border-radius: 15px;
+            box-shadow: 8px 0px 32px 0px rgba(66, 68, 90, 1);
+            font-size: 20px;
+            font-weight: 700;
+            border: 3px solid black;
+        }
+
+        .computerBtn{
+        
+            background-color: rgba(255, 255, 255, 0.846);
+            padding: 10px;
+            margin: 15px;
+            border-radius: 15px;
+            box-shadow: 8px 0px 32px 0px rgba(66, 68, 90, 1);
+            font-size: 20px;
+            font-weight:  700;
+            border: 3px solid black;
+        }
+ }
+
+
+ @media (min-width: 720.1px) and (max-width: 1299.9px){
+    .Icons{
+        width: 200px;
+        height: 200px;
+        margin-top: 120px;
+    }
+
+    .Icons-active{
+        margin-top: 120px;
+        width: 200px;
+        height: 200px;
+        animation: myAnim 3s ease 0s 1 alternate-reverse both;
+    }
+
+    #buttons{
+        margin-top: 100px;
+    }
+
+    .points{
+        font-size: 40px;
+        margin: 10px;
+        font-weight: 700;
+    }
+    
+    .result{
+        font-size: 35px;
+        position: absolute;
+        margin: 10px;
+        font-weight: 700;
+    }
+    .userBtn{
+        background-color: rgba(255, 255, 255, 0.846);
+        padding: 8px;
+        margin: 15px;
+        border-radius: 15px;
+        box-shadow: 8px 0px 32px 0px rgba(66, 68, 90, 1);
+        font-size: 17px;
+        font-weight: 700;
+        border: 3px solid black;
+    }
+
+    .computerBtn{
+        
+        background-color: rgba(255, 255, 255, 0.846);
+        padding: 8px;
+        margin: 15px;
+        border-radius: 15px;
+        box-shadow: 8px 0px 32px 0px rgba(66, 68, 90, 1);
+        font-size: 17px;
+        font-weight:  700;
+        border: 3px solid black;
+    }
+    
+ }
+  
+
+ @media (min-width: 1300px){
+    .Icons{
+        width: 250px;
+        height: 250px;
+        margin-top: 100px;
+    }
+
+    .Icons-active{
+        margin-top: 100px;
+        width: 250px;
+        height: 250px;
+        animation: myAnim 3s ease 0s 1 alternate-reverse both;
+    }
+
+    #buttons{
+        margin-top: 50px;
+    }
+
+    .points{
+        font-size: 40px;
+        margin: 10px;
+        font-weight: 700;
+    }
+    
+    .result{
+        font-size: 35px;
+        position: absolute;
+        margin: 10px;
+        font-weight: 700;
+    }
+    .userBtn{
+        background-color: rgba(255, 255, 255, 0.846);
+        padding: 7px;
+        margin: 15px;
+        border-radius: 15px;
+        box-shadow: 8px 0px 32px 0px rgba(66, 68, 90, 1);
+        font-size: 20px;
+        font-weight: 700;
+        border: 3px solid black;
+    }
+
+    .computerBtn{
+        
+        background-color: rgba(255, 255, 255, 0.846);
+        padding: 7px;
+        margin: 15px;
+        border-radius: 15px;
+        box-shadow: 8px 0px 32px 0px rgba(66, 68, 90, 1);
+        font-size: 20px;
+        font-weight:  700;
+        border: 3px solid black;
+    }
+    
+ }
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateY(-8px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateY(8px);
+	}
+
+	80% {
+		transform: translateY(6.4px);
+	}
+
+	90% {
+		transform: translateY(-6.4px);
+	}
+}
+
+//animation: myAnim 3s ease 0s 8 alternate-reverse both;
